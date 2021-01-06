@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.none {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#boardgame {
+    height: 800px;
+    width: 800px;
+    flex-wrap: wrap;
+    border: 3px solid black;
+}
+
+.block {
+    border: 0.5px solid darkgrey;
+    box-sizing: border-box;
+}
