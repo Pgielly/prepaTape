@@ -29,3 +29,8 @@ body {
     border: 0.5px solid darkgrey;
     box-sizing: border-box;
 }
+
+#boardgame>div {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
